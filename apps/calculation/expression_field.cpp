@@ -17,8 +17,7 @@ bool ExpressionField::handleEvent(Ion::Events::Event event) {
        event == Ion::Events::Power ||
        event == Ion::Events::Square ||
        event == Ion::Events::Division ||
-       event == Ion::Events::Sto ||
-       event == Ion::Events::EE)) {
+       event == Ion::Events::Sto)) {
     handleEventWithText(Poincare::Symbol::k_ans);
   }
   return(::ExpressionField::handleEvent(event));
