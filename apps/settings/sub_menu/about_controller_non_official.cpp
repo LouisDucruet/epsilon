@@ -5,9 +5,10 @@ namespace Settings {
 
 void AboutController::viewWillAppear() {
   GenericSubController::viewWillAppear();
+  m_view.setMessages(nullptr, 0);
   // --------------------- Please don't edit these lines ----------------------
-  I18n::Message cautionMessages[] = {I18n::Message::AboutWarning1, I18n::Message::AboutWarning2, I18n::Message::AboutWarning3, I18n::Message::AboutWarning4};
-  m_view.setMessages(cautionMessages, sizeof(cautionMessages)/sizeof(I18n::Message));
+  //I18n::Message cautionMessages[] = {I18n::Message::AboutWarning1, I18n::Message::AboutWarning2, I18n::Message::AboutWarning3, I18n::Message::AboutWarning4};
+  //m_view.setMessages(cautionMessages, sizeof(cautionMessages)/sizeof(I18n::Message));
   // --------------------------------------------------------------------------
 }
 
