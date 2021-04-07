@@ -42,8 +42,8 @@ void ExamModeController::didEnterResponderChain(Responder * previousFirstRespond
     m_contentView.setMessages(deactivateMessages, k_numberOfDeactivationMessageLines);
   // --------------------- Please don't edit these lines ----------------------
   } else if (numberOfCautionLines() > 0) {
-    I18n::Message cautionMessages[] = {I18n::Message::ExamModeWarning1, I18n::Message::ExamModeWarning2, I18n::Message::ExamModeWarning3};
-    m_contentView.setMessages(cautionMessages, numberOfCautionLines());
+    //I18n::Message cautionMessages[] = {I18n::Message::ExamModeWarning1, I18n::Message::ExamModeWarning2, I18n::Message::ExamModeWarning3};
+    //m_contentView.setMessages(cautionMessages, numberOfCautionLines());
   }
   // --------------------------------------------------------------------------
 }
