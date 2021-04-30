@@ -205,7 +205,6 @@ public:
     Preferences::UnitFormat unitFormat() const { return m_unitFormat; }
     ReductionTarget target() const { return m_target; }
     SymbolicComputation symbolicComputation() const { return m_symbolicComputation; }
-    void setSymbolicComputation(SymbolicComputation symbolicComputation) { m_symbolicComputation = symbolicComputation; }
     UnitConversion unitConversion() const { return m_unitConversion; }
   private:
     Preferences::UnitFormat m_unitFormat;
